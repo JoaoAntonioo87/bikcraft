@@ -1,8 +1,9 @@
 .seguros-bg {
-  background-color: var(--cor-11);
+  background: var(--cor-11);
 }
 
 .seguros {
+  padding-top: 60px;
   padding-bottom: 60px;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -53,7 +54,7 @@
 
 .seguros-item li::before {
   content: "";
-  display: block;
+  display: inline-block;
   width: 13px;
   height: 9px;
   background-image: url("../../img/icones/lista.svg");
@@ -63,7 +64,6 @@
 
 .seguros-item a {
   grid-column: 1/-1;
-  max-width: auto;
 }
 
 @media (max-width: 800px) {

@@ -3,7 +3,8 @@
 }
 
 .vantagens {
-  padding: 120px 0;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .vantagens h2 {
@@ -23,7 +24,8 @@
 
 @media (max-width: 800px) {
   .vantagens {
-    padding: 60px 0;
+    padding-top: 60px;
+    padding-bottom: 60px;
   }
   .vantagens h2 {
     margin-bottom: 40px;
